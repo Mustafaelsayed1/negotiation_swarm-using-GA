@@ -50,60 +50,68 @@ pip install -r requirements.txt
 
 # Run the negotiation simulation
 python main.py
+---
+
 ## 🗂️ Project Structure
+
 The project is organized into the following key files:
 
-app.py
-Main application runner that starts the negotiation simulation.
+- **`app.py`**  
+  Main application runner that starts the negotiation simulation.
 
-engine.py
-Contains the Genetic Algorithm logic and negotiation engine implementation.
+- **`engine.py`**  
+  Contains the Genetic Algorithm logic and negotiation engine implementation.
 
-fitness.py
-Defines the fitness function used to evaluate negotiation candidate solutions.
+- **`fitness.py`**  
+  Defines the fitness function used to evaluate negotiation candidate solutions.
 
-requirements.txt
-Lists all Python dependencies required to run the project.
+- **`requirements.txt`**  
+  Lists all Python dependencies required to run the project.
 
-README.md
-Project documentation file (this file).
+- **`README.md`**  
+  Project documentation file (this file).
 
-Other modules and resources
-Additional supporting scripts and data files as needed.
+- **Other modules and resources**  
+  Additional supporting scripts and data files as needed.
 
-##🔍 How It Works
-🚀 Initialization: Start with an initial population of candidate negotiation solutions.
+---
 
-🎯 Evaluation: Each candidate is evaluated using a fitness function representing negotiation success.
+## 🔍 How It Works
 
-🏆 Selection: Select the best candidates to form the next generation.
+- 🚀 **Initialization:** Start with an initial population of candidate negotiation solutions.  
+- 🎯 **Evaluation:** Each candidate is evaluated using a fitness function representing negotiation success.  
+- 🏆 **Selection:** Select the best candidates to form the next generation.  
+- 🔄 **Crossover and Mutation:** Apply genetic operators to produce offspring solutions.  
+- 🔁 **Iteration:** Repeat the evaluation and evolution process over several generations until convergence or stopping criteria are met.  
+- 🎉 **Negotiation Outcome:** Final negotiation solution is the optimized agreement between customer and manufacturer.
 
-🔄 Crossover and Mutation: Apply genetic operators to produce offspring solutions.
+---
 
-🔁 Iteration: Repeat the evaluation and evolution process over several generations until convergence or stopping criteria are met.
+## 🛠️ Technologies
 
-🎉 Negotiation Outcome: Final negotiation solution is the optimized agreement between customer and manufacturer.
+- 🐍 Python 3.x  
+- 🧬 Genetic Algorithm techniques  
+- 📊 Numpy (for numerical operations)  
+- 📦 Other Python libraries as listed in `requirements.txt`
 
-##🛠️ Technologies
-🐍 Python 3.x
+---
 
-🧬 Genetic Algorithm techniques
+## 🤝 Contributing
 
-📊 Numpy (for numerical operations)
-
-📦 Other Python libraries as listed in requirements.txt
-
-##🤝 Contributing
 Contributions are welcome! Please open issues for bugs or feature requests and submit pull requests for improvements.
 
-##📄 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+---
 
-##📬 Contact
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 📬 Contact
+
 For questions or collaboration, contact:
 
-Mustafa Elsayed
-✉️ Email: [mustafaelsayed248@gmail.com]
-🔗 GitHub: Mustafaelsayed1
-
-
+**Mustafa Elsayed**  
+✉️ Email: [mustafaelsayed248@gmail.com]  
+🔗 GitHub: [Mustafaelsayed1](https://github.com/Mustafaelsayed1)
