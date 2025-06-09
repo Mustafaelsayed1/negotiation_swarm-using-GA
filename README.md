@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 # Run the negotiation simulation
 python main.py
-🗂️ Project Structure
+## 🗂️ Project Structure
 The project is organized into the following key files:
 
 app.py
@@ -71,7 +71,7 @@ Project documentation file (this file).
 Other modules and resources
 Additional supporting scripts and data files as needed.
 
-🔍 How It Works
+##🔍 How It Works
 🚀 Initialization: Start with an initial population of candidate negotiation solutions.
 
 🎯 Evaluation: Each candidate is evaluated using a fitness function representing negotiation success.
@@ -84,7 +84,7 @@ Additional supporting scripts and data files as needed.
 
 🎉 Negotiation Outcome: Final negotiation solution is the optimized agreement between customer and manufacturer.
 
-🛠️ Technologies
+##🛠️ Technologies
 🐍 Python 3.x
 
 🧬 Genetic Algorithm techniques
@@ -93,13 +93,13 @@ Additional supporting scripts and data files as needed.
 
 📦 Other Python libraries as listed in requirements.txt
 
-🤝 Contributing
+##🤝 Contributing
 Contributions are welcome! Please open issues for bugs or feature requests and submit pull requests for improvements.
 
-📄 License
+##📄 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-📬 Contact
+##📬 Contact
 For questions or collaboration, contact:
 
 Mustafa Elsayed
