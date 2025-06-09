@@ -69,7 +69,7 @@ You can adjust parameters such as population size, number of generations, mutati
 🗂️ Project Structure
 bash
 Copy
-Edit
+Edit 
 negotiation_swarm-using-GA/
 │
 ├── app.py                # Main application runner
